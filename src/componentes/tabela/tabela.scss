@@ -1,0 +1,142 @@
+.tabela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    
+    video{
+        width:100%;
+        height: 100%;
+        object-fit: cover;
+       
+        
+        
+        
+    }
+}
+
+.tabela1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.507);
+    
+   
+   
+    
+    
+    
+  
+   
+    h1{
+        color: rgb(255, 217, 0);
+        position: top;
+        text-align: center;
+        
+        
+    }
+}
+
+.tabela2{
+    
+    
+    width: 90%;
+    height: 50px;
+    border: 2px solid rgb(255, 255, 255) ;
+    margin-bottom: 10px;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+
+
+    div {
+        display: flex;
+        width: 120px;
+       height: 30px;
+       justify-content: center;
+        background-color: rgba(175, 177, 179, 0.507);
+        border-radius: 10px;
+        align-items: center;
+        text-align: center;
+        margin:2px;
+       
+        
+
+    }
+    h1{
+       
+        color:rgb(5, 4, 3);
+        font-size: 20px;
+        width: 50%;
+        align-items: center;
+         margin: 0;
+        text-align: center;
+        padding: 8px;
+        
+        border-radius: 40px;
+    }
+
+    
+}
+
+.tabela2-1{
+    
+    
+    width: 90%;
+    height: 80px;
+   
+    margin-bottom: 0;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+
+
+    div {
+        display: flex;
+        width: 100%;
+       height: 60px;
+       justify-content: center;
+       
+    
+        align-items: center;
+        text-align: center;
+        
+       
+        
+
+    }
+    h1{
+       
+        color:rgb(204, 202, 201);
+        font-size: 20px;
+        width: 80%;
+        align-items: center;
+         margin: 0;
+        text-align: center;
+        padding: 8px;
+        
+        border-radius: 40px;
+    }
+}
+
+.tabela3{
+   width: 90%;
+    height: 100%;
+    border: 2px solid rgb(255, 255, 255) ;
+    margin: 50px;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+
+    
+}

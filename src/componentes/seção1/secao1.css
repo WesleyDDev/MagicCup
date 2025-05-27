@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Planewalker Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Planewalker Regular'), url('Planewalker.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Planewalker Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Planewalker Italic'), url('Planewalker Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Planewalker Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Planewalker Bold'), url('Planewalker Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Planewalker Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Planewalker Bold Italic'), url('Planewalker Bold Italic.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'Barlow Condensed SemiBold';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Barlow Condensed SemiBold'), url('BarlowCondensed-SemiBold.woff') format('woff');
+        }
+
+
+
+
+
+
+
+
+
+
+.secao{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 100%;
+    height: 100%;
+}
+
+.secao1{
+    
+    background-image:url(./banner.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;    
+    object-fit: cover;
+    background-size: cover;
+    
+    
+      
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+   
+
+
+.secao1-1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+
+ 
+
+}
+
+.secao1-2{
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Barlow Condensed SemiBold', Times, serif;
+    font-size: 20px;
+    
+}
+.secao1-2 , h1  {
+    color: rgb(173, 161, 138);
+
+    width: 500PX;
+    font-size: 65px;
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: -10px;
+    
+}
+
+
+.secao1-2 ,p {
+    font-size: 30px;
+    color: rgb(179, 139, 65);
+    font-family: 'Barlow Condensed SemiBold';
+    width: 400px;
+    text-align: left;
+
+
+    
+}
+
+
+.secao1-3{
+    display: flex;
+    width: 650px;
+    height: 550px;
+    align-items: center;
+    margin-left: 100px;
+    
+    
+   
+    background-image: url(logo.png);
+    object-fit: cover;
+    background-size: cover;
+    
+   
+}
+
+.botao{
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0 5px white;
+    background-color: rgb(182, 137, 15);
+    color: rgb(192, 184, 169);
+    font-family: 'Barlow Condensed SemiBold';
+    font-size: 35px;
+    margin-left: -100px;
+    border: 1px solid rgb(119, 108, 37);
+    text-align: center;
+    align-items: center;
+}

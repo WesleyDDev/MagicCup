@@ -1,0 +1,64 @@
+.pesquisa {
+  box-sizing: border-box;
+  height: 100%;
+  background-image: url(magic-the-gathering.png);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+.pesquisa h1 {
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  align-items: center;
+}
+.pesquisa input {
+  margin: 25px;
+  height: 30px;
+  width: 250px;
+}
+.pesquisa button {
+  width: 80px;
+  height: 30px;
+}
+
+.res {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 30px;
+}
+
+.card {
+  margin: 20px;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgba(136, 134, 134, 0.596);
+  height: 100%;
+  width: 500px;
+}
+.card .info {
+  background-color: rgba(250, 235, 215, 0);
+  height: 100%;
+  margin: 20px;
+}
+.card .info1 {
+  height: 100%;
+  color: black;
+  width: 150px;
+  justify-content: space-around;
+  text-align: center;
+}
+.card .info1 h1 {
+  font-size: 30px;
+  width: 250px;
+  color: black;
+}
+.card .info1 p {
+  font-size: 20px;
+  width: 200px;
+  color: rgb(39, 38, 38);
+}/*# sourceMappingURL=pesquisa.css.map */

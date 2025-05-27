@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: 'Planewalker Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Planewalker Bold'), url('Planewalker Bold.woff') format('woff');
+    }
+
+
+.header{
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center ;
+    color: aliceblue;
+    position: fixed;
+    z-index: 1000;
+    
+    width: 100%;
+   
+    
+
+
+  
+}
+
+     .logo img {
+
+    width: 85px;
+    height: 60px;
+    
+    
+}
+
+.links a {
+    
+    margin: 50px;
+    font-size: 20px;
+    font-family: 'Barlow Condensed SemiBold', Times, serif;
+    color: rgb(204, 198, 180);
+}
+.links a:hover   {
+    color: rgb(182, 137, 15);
+    border-bottom: 1px solid rgba(182, 137, 15, 0.644);
+    cursor: pointer;
+    transition: 1s;
+}

@@ -1,0 +1,112 @@
+.pesquisa{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+    h1{
+        font-size: 50px;
+        color: rgb(182, 137, 15);
+        align-items: center;
+        text-align: center;
+
+        font-family: 'Barlow Condensed SemiBold', Times, serif;
+        
+       
+    }
+    h2{
+        align-items: center;
+        text-align: center;
+        color: rgb(131, 131, 131)
+        
+        
+    }
+        
+    input{
+        margin: 25px;
+       
+        height: 30px;
+        width: 250px;
+    }
+
+    button{
+        width: 120px;
+        height: 35px;
+        border: none;
+        background-color: rgb(182, 137, 15);
+    }
+    
+    
+}
+
+.res{
+     background-image: url(Meta_Innistrad.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    
+}
+
+.card{
+    
+    display: flex;
+    border: 1px  solid black;
+    border-radius: 10px;
+    background-color: rgba(136, 134, 134, 0.596);
+    
+    height: 100%;
+    width: 900px;
+    
+
+
+.info{
+    background-color: rgba(250, 235, 215, 0);
+    
+    
+    margin: 10px;
+   
+}
+
+
+.info1{
+    
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+    width: 100%;
+    
+    
+    
+   
+    h1{
+        font-size: 30px;
+        width: 100%;
+        color: black;
+        text-align: left;
+        
+    }
+    p{
+        font-size: 20px;
+        width:100%;
+        color: rgb(29, 28, 28);
+        text-align:left;
+        
+    }
+}
+}

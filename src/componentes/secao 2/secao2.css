@@ -1,0 +1,26 @@
+.secao2{
+    height: 650px;
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+}
+
+.apig{
+    width: 200px;
+    height: 300px;
+}
+
+.secaocard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+.secaocard h1{
+    font-size: 50px;
+}
+
+.secaocard img{
+    height: 350px;
+    width: 250px;
+}
