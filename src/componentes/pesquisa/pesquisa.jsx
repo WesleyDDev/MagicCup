@@ -1,6 +1,5 @@
 import './pesquisa.scss'
-import react from 'react'
-import { useState,useEffect } from 'react'
+import { useState,} from 'react'
 import axios from 'axios'
 
 
@@ -28,7 +27,7 @@ export default function Pesquisa(){
     return(
         <div className='pesquisa'>
 
-           <div> <h1>- ORÁCULO -</h1>
+           <div className='pesquisa1'> <h1>- ORÁCULO -</h1>
            <h2>Sistema de Busca de Cartas de Magic  Rápido e Preciso</h2></div>
            
            <div><input type="text"

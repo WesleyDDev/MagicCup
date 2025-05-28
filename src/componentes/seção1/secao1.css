@@ -47,26 +47,33 @@
 
 .secao{
     width: 100%;
-    height: 700px;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
+    margin-top: 50px;
 }
 
 .overlay{
     background-color: rgba(0, 0, 0, 0.411);
     width: 100%;
     height: 100%;
+    display: flex;
+     flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 .secao1{
     
     background-image:url(./banner.jpg);
-    height: 100%;
+    height: 650px;
     width: 100%;
     background-repeat: no-repeat;    
-    object-fit: cover;
     background-size: cover;
+    
+    display: flex;
+     flex-wrap: wrap;
+    box-sizing: border-box;
     
     
       
@@ -83,7 +90,7 @@
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: left;
+    
     align-items: center;
     
 
@@ -93,7 +100,7 @@
 
 .secao1-2{
    
-    width: 100%;
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -105,22 +112,22 @@
 }
 .secao1-2 , h1  {
     color: rgb(173, 161, 138);
-
-    width: 500PX;
-    font-size: 65px;
-    text-align: left;
-    margin-left: 80px;
-    margin-bottom: -10px;
+    filter: drop-shadow(1px 1px 20px rgb(7, 5, 2));
+    width: 50%;
+    font-size: 25px;
+    
+    
+    
     
 }
 
 
 .secao1-2 ,p {
-    font-size: 30px;
+    font-size: 10px;
     color: rgb(179, 139, 65);
     font-family: 'Barlow Condensed SemiBold';
-    width: 400px;
-    text-align: left;
+    width: 100%;
+    
 
 
     
@@ -129,22 +136,22 @@
 
 .secao1-3{
     display: flex;
-    width: 650px;
-    height: 550px;
+    width: 50%;
+    height: 350px;
     align-items: center;
-    margin-left: 100px;
+   
     
     
    
     background-image: url(logo.png);
-    object-fit: cover;
+    filter: drop-shadow(1px 1px 20px rgb(16, 165, 36));
     background-size: cover;
     
    
 }
 
 .botao{
-    width: 300px;
+    width: 200px;
     height: 50px;
     border-radius: 15px;
     box-shadow: 0px 0 5px white;
@@ -152,7 +159,7 @@
     color: rgb(192, 184, 169);
     font-family: 'Barlow Condensed SemiBold';
     font-size: 35px;
-    margin-left: -100px;
+    
     border: 1px solid rgb(119, 108, 37);
     text-align: center;
     align-items: center;
