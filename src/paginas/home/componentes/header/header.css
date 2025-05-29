@@ -34,12 +34,15 @@
     
 }
 
+
 .links a {
     
     margin: 50px;
     font-size: 20px;
     font-family: 'Barlow Condensed SemiBold', Times, serif;
     color: rgb(204, 198, 180);
+    text-decoration: none;
+  
 }
 .links a:hover   {
     color: rgb(182, 137, 15);

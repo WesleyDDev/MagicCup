@@ -1,33 +1,4 @@
-@font-face {
-    font-family: 'Planewalker Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Planewalker Regular'), url('Planewalker.woff') format('woff');
-    }
-    
 
-    @font-face {
-    font-family: 'Planewalker Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Planewalker Italic'), url('Planewalker Italic.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Planewalker Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Planewalker Bold'), url('Planewalker Bold.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Planewalker Bold Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Planewalker Bold Italic'), url('Planewalker Bold Italic.woff') format('woff');
-    }
 
     @font-face {
         font-family: 'Barlow Condensed SemiBold';
