@@ -1,0 +1,32 @@
+.full{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+
+}
+
+.principal{
+    height: 750px;
+    width: 100%;
+    background-image: (url('./fundo.png'));
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.Login{
+    border: solid 1px rgba(0, 0, 0, 0.281);
+    height: 500px;
+    width: 400px;
+    background-color: rgba(29, 29, 29, 0.568);
+    backdrop-filter: blur(5px);
+    
+}
